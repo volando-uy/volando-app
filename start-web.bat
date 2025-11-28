@@ -6,7 +6,7 @@ title VolandoUY - Web Server
 set CONFIG_FILE=%USERPROFILE%\volandouy\application.properties
 set WAR_NAME=app-web-jsp.war
 set WAR_PATH=app-web\target\%WAR_NAME%
-set TOMCAT_DIR=tomcat
+set TOMCAT_DIR=app-web\tomcat
 set TOMCAT_BIN=%TOMCAT_DIR%\bin
 set TOMCAT_WEBAPPS=%TOMCAT_DIR%\webapps
 set SERVER_XML=%TOMCAT_DIR%\conf\server.xml
