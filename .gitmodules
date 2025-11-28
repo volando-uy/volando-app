@@ -1,0 +1,6 @@
+[submodule "app-web"]
+	path = app-web
+	url = https://github.com/volando-uy/app-web
+[submodule "app-central"]
+	path = app-central
+	url = https://github.com/volando-uy/app-central
