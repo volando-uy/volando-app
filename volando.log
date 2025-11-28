@@ -1,0 +1,138 @@
+Configuración cargada desde el directorio actual: C:\Users\Josec\volandouy\application.properties
+SOAP URL: localhost:8086/api
+DB host: localhost
+DB port: 5432
+DB name: volandodb
+nov. 28, 2025 9:31:30 A. M. org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: VolandoApp]
+nov. 28, 2025 9:31:30 A. M. org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version [WORKING]
+nov. 28, 2025 9:31:30 A. M. org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://airport.soap.adapters.app/}AirportSoapAdapterService from class app.adapters.soap.airport.AirportSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/airportService
+[main] INFO org.eclipse.jetty.server.Server - jetty-12.0.29; built: 2025-10-16T15:15:43.982Z; git: 8dbd9865cc7407d735084a181cc3f21205872b70; jvm 17.0.12+8-LTS-286
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@64337702{HTTP/1.1, (http/1.1, h2c)}{localhost:8086}
+[main] INFO org.eclipse.jetty.server.Server - Started oejs.Server@42a9e5d1{STARTING}[12.0.29,sto=0] @870ms
+[main] INFO org.eclipse.jetty.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@32057e6{/api,/api,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@26be6ca7{STARTED}}
+[main] INFO org.eclipse.jetty.ee10.servlet.ServletContextHandler - Started oeje10s.ServletContextHandler@32057e6{/api,/api,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@26be6ca7{STARTED}}
+Servicio SOAP airportService publicado en: http://localhost:8086/api/airportService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://auth.soap.adapters.app/}AuthSoapAdapterService from class app.adapters.soap.auth.AuthSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/authService
+Servicio SOAP authService publicado en: http://localhost:8086/api/authService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://booking.soap.adapters.app/}BookingSoapAdapterService from class app.adapters.soap.booking.BookingSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/bookingService
+Servicio SOAP bookingService publicado en: http://localhost:8086/api/bookingService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://buypackage.soap.adapters.app/}BuyPackageSoapAdapterService from class app.adapters.soap.buypackage.BuyPackageSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/buyPackageService
+Servicio SOAP buyPackageService publicado en: http://localhost:8086/api/buyPackageService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://category.soap.adapters.app/}CategorySoapAdapterService from class app.adapters.soap.category.CategorySoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/categoryService
+Servicio SOAP categoryService publicado en: http://localhost:8086/api/categoryService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://city.soap.adapters.app/}CitySoapAdapterService from class app.adapters.soap.city.CitySoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/cityService
+Servicio SOAP cityService publicado en: http://localhost:8086/api/cityService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://flight.soap.adapters.app/}FlightSoapAdapterService from class app.adapters.soap.flight.FlightSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/flightService
+Servicio SOAP flightService publicado en: http://localhost:8086/api/flightService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://flightroute.soap.adapters.app/}FlightRouteSoapAdapterService from class app.adapters.soap.flightroute.FlightRouteSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/flightRouteService
+Servicio SOAP flightRouteService publicado en: http://localhost:8086/api/flightRouteService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://flightroutepackage.soap.adapters.app/}FlightRoutePackageSoapAdapterService from class app.adapters.soap.flightroutepackage.FlightRoutePackageSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/flightRoutePackageService
+Servicio SOAP flightRoutePackageService publicado en: http://localhost:8086/api/flightRoutePackageService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://seat.soap.adapters.app/}SeatSoapAdapterService from class app.adapters.soap.seat.SeatSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/seatService
+Servicio SOAP seatService publicado en: http://localhost:8086/api/seatService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://ticket.soap.adapters.app/}TicketSoapAdapterService from class app.adapters.soap.ticket.TicketSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/ticketService
+Servicio SOAP ticketService publicado en: http://localhost:8086/api/ticketService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://user.soap.adapters.app/}UserSoapAdapterService from class app.adapters.soap.user.UserSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/userService
+Servicio SOAP userService publicado en: http://localhost:8086/api/userService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://images.soap.adapters.app/}ImagesSoapAdapterService from class app.adapters.soap.images.ImagesSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/imagesService
+Servicio SOAP imagesService publicado en: http://localhost:8086/api/imagesService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://constants.soap.adapters.app/}ConstantsSoapAdapterService from class app.adapters.soap.constants.ConstantsSoapAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/constantsService
+Servicio SOAP constantsService publicado en: http://localhost:8086/api/constantsService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://countries.soap.adapters.app/}SoapCountriesAdapterService from class app.adapters.soap.countries.SoapCountriesAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/countriesService
+Servicio SOAP countriesService publicado en: http://localhost:8086/api/countriesService?wsdl
+[main] INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean - Creating Service {http://pdf.soap.adapters.app/}SoapPDFAdapterService from class app.adapters.soap.pdf.SoapPDFAdapter
+[main] INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be http://localhost:8086/api/pdfService
+Servicio SOAP pdfService publicado en: http://localhost:8086/api/pdfService?wsdl
+SplashScreen.getSplashScreen() returned null
+DB host: localhost
+DB port: 5432
+DB name: volandodb
+nov. 28, 2025 9:31:32 A. M. org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: VolandoApp]
+nov. 28, 2025 9:31:32 A. M. org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/volandodb]
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=postgres}
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+nov. 28, 2025 9:31:36 A. M. org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator resolveBeanContainer
+INFO: HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+nov. 28, 2025 9:31:36 A. M. org.hibernate.boot.model.internal.AnnotationBinder detectMappedSuperclassProblems
+WARN: HHH000503: A class should not be annotated with both @Inheritance and @MappedSuperclass. @Inheritance will be ignored for: domain.models.luggage.Luggage.
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/volandodb]
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=postgres}
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+nov. 28, 2025 9:31:36 A. M. org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator null
+nov. 28, 2025 9:31:36 A. M. org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+nov. 28, 2025 9:31:36 A. M. org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator resolveBeanContainer
+INFO: HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+nov. 28, 2025 9:31:36 A. M. org.hibernate.boot.model.internal.AnnotationBinder detectMappedSuperclassProblems
+WARN: HHH000503: A class should not be annotated with both @Inheritance and @MappedSuperclass. @Inheritance will be ignored for: domain.models.luggage.Luggage.
+nov. 28, 2025 9:31:37 A. M. org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+nov. 28, 2025 9:31:37 A. M. org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+nov. 28, 2025 9:31:37 A. M. org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d9e1784] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+nov. 28, 2025 9:31:37 A. M. org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@21afc986] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Conexión a DB: jdbc:postgresql://localhost:5432/volandodb
+Conexión a DB: jdbc:postgresql://localhost:5432/volandodb
+DB inicializada correctamente.
+MainFrame visible.
+BaseCustomerDTO
+BaseCustomerDTO
+BaseCustomerDTO
+BaseCustomerDTO
+BaseCustomerDTO
+BaseCustomerDTO
+BaseCustomerDTO
+BaseCustomerDTO
+BaseAirlineDTO
+BaseAirlineDTO
+BaseAirlineDTO
+BaseAirlineDTO
+BaseAirlineDTO
+BaseAirlineDTO
+BaseAirlineDTO
+BaseCustomerDTO
