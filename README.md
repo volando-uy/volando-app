@@ -137,8 +137,3 @@ Esto levantará el **Servidor Web** con Tomcat, conectado al **Servidor Central*
 
 Este proyecto es parte de una actividad académica y su uso está limitado al ámbito educativo.
 
----
-
-## ❤️ Agradecimientos
-
-Gracias a todos los profes y compañeros de UTEC que nos apoyaron durante el desarrollo de este sistema.
